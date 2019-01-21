@@ -1,5 +1,5 @@
 def isPrime?(num)
-  (2..Math.sqrt(num)).each { |i|
+num.each { |i|
   if num % i == 0 && i < num
     return false
   end
